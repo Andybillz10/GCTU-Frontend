@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/Timetable_frontend/DepartmentsXOX/IMG/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  nav{
+    background-color: rgb(4, 25, 88, 0.808);
+    height: 70px;
+    width: 100%;
+    font-family: Tahoma;
+  }
+  
+  label.logo{
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 70px;    
+    padding: 0 50px;
+  }
+
+  a.active a:hover{
+    background-color: #1b9ff1;
+    transition: .5s;
+  }
+  .heading{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(184, 217, 243);
+    
+  }
+  nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+  .dropbtn {
+    background-color: #3304aa;
+    color: white;
+    padding: 16px  ;
+    font-size: 16px;
+    border: none;
+    width: 500px;
+    position: relative;
+    border-radius: 15px; 
+    margin: auto;  
+  }
+  
+  .dropbtn:hover {background-color:  rgb(6, 40, 67); 
+  }
+  
+  .center{
+  margin: auto;
+  width: 500px;
+  padding-top: 20px;
+  }
+
+  .dropbtn a{
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+  }
+  

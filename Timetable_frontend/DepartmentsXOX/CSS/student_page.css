@@ -1,0 +1,21 @@
+body{
+    background-image: url(/Timetable_frontend/DepartmentsXOX/IMG/side.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav-pills li a:hover{
+    background-color: rgb(4, 25, 88, 0.808);
+}
+
+.student_display{
+    position: relative;
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+#side1{
+    background-color: rgb(4, 25, 88, 0.808);
+}
+
+

@@ -1,0 +1,6 @@
+VS code extensions
+1. PHP Intelephense
+2. PHP Server
+3. Install Xamp. Start Apache and MySQL
+5.Add php path in xamp to environmental variables path. Eg E:\Xampp\php
+4. Click on Home.php Right click in the Home.php editor and click serve PHP SERVER: Serve Project

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+margin: 0;
+background-image: url(/Timetable_frontend/DepartmentsXOX/IMG/side.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.navbar{
+    color: rgb(4, 25, 88, 0.808);
+    height: 70px;
+    width: 100%;
+    font-family: Tahoma;
+   
+}
+
+.container-fluid{
+    background-color:rgb(4, 25, 88, 0.808) ;
+}
+ label.Logo{
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 70px;
+    padding: 0px 50px;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.navbar{
+    display: inline-block;
+    line-height: 70px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar ul li{
+    float: right;
+}
+
+.dropdown-menu a{
+    color: black;
+}
+ /* a:hover{
+    background-color: #1b9ff1;
+    transition: .5s;
+} */
+
+/* nav ul li a:hover{
+    color: rgb(33, 22, 9);
+} */
+
+nav ul li a{
+    text-decoration: none;
+}

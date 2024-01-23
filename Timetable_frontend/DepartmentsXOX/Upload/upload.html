@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> </head>
+
+    <template>
+        <main> 
+            <h1> Upload a file</h1>
+            <form method="post" enctype="multipart/form-data">
+                <label for="file">File</label>
+                <input id="file" name="file" type="file"/>
+                <br /><br />
+                <button>Upload</button>
+            </form>
+        </main>
+    </template>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+    main {
+        max-inline-size: 48rem;
+        margin-inline: auto;
+        border: 0.125rem solid;
+        padding: 0.75rem;
+        background: #fff;
+    }
+    button{
+        color: blueviolet;
+        border-radius: 5%;
+    }
+    </style>
+</html>
